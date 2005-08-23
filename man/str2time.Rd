@@ -1,21 +1,26 @@
 \name{str2time}
 \alias{str2time}
-\title{Convert DICOM Time Entry}
+\alias{str2date}
+\title{Convert DICOM Time/Date Entry}
 \description{
   The DICOM time entry (TM) is converted into two alternative formats: a
-  text version of the original format and a number in seconds.
+  text version of the original format and a number in seconds.  The
+  DICOM date entry (DA) is converted into a simple alternative format.
 }
 \usage{
 str2time(tt)
+str2date(dd)
 }
 \arguments{
   \item{tt}{TM field from a DICOM header.}
+  \item{dd}{DA field from a DICOM header.}
 }
 \value{
-  A list structure containing two fields
+  For "TM", a list structure containing two fields
   \item{txt}{A text version of the time where colons have been inserted
     for readability.}
   \item{time}{Time in seconds from midnight.}
+  for "DA", a simple character string.
 }
 \details{
   DICOM "TM" format consists of a string of characters of the format
@@ -41,6 +46,15 @@ str2time(tt)
   standard prior to V3.0, it is recommended that implementations also
   support a string of characters of the format \code{hh:mm:ss.frac} for
   this VR.
+
+ DICOM "DA" format A string of characters of the format yyyymmdd; where
+ yyyy shall contain year, mm shall contain the month, and dd shall
+ contain the day. This conforms to the ANSI HISPP MSDS Date common data
+ type. Example:
+ \item{1.}{19930822  would represent August 22, 1993.}
+ Notes: For reasons of backward compatibility with versions of this
+ standard prior to V3.0, it is recommended that implementations also
+ support a string of characters of the format yyyy.mm.dd for this VR.
 }
 \references{
   Digital Imaging and Communications in Medicine (DICOM)

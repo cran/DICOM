@@ -20,10 +20,10 @@ dicom2analyze(hdr, img)
 }
 \references{
   Analyze 7.5
-  http://www.mayo.edu/bir/PDF/ANALYZE75.pdf
+  \url{http://www.mayo.edu/bir/PDF/ANALYZE75.pdf}
   
   Digital Imaging and Communications in Medicine (DICOM)
-  http://medical.nema.org
+  \url{http://medical.nema.org}
 }
 \seealso{
 }

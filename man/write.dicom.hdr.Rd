@@ -20,7 +20,7 @@ write.dicom.hdr(dtable, filename, ...)
 }
 \references{
   Digital Imaging and Communications in Medicine (DICOM)
-  http://medical.nema.org
+  \url{http://medical.nema.org}
 }
 \seealso{
   \code{\link{write.table}}

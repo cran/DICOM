@@ -1,6 +1,6 @@
 Package: DICOM
-Version: 0.1
-Date: 2005-8-11
+Version: 0.12
+Date: 2005-8-23
 Title: Import medical imaging data using the DICOM Standard
 Author: Brandon Whitcher <brandon.j.whitcher@gsk.com>
 Maintainer: Brandon Whitcher <brandon.j.whitcher@gsk.com>
@@ -11,4 +11,4 @@ Description: This package provides functions to import and manipulate
   Medicine (DICOM) Standard.
 License: GPL version 2 or later
 URL: http://medical.nema.org
-Packaged: Sat Aug 20 22:09:16 2005; hornik
+Packaged: Tue Aug 23 17:00:20 2005; bjw34032

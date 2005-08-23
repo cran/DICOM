@@ -18,7 +18,7 @@ dicom.separate(path, debug=TRUE)
 }
 \references{
   Digital Imaging and Communications in Medicine (DICOM)
-  http://medical.nema.org
+  \url{http://medical.nema.org}
 }
 \seealso{
   \code{\link{dicom.info}}

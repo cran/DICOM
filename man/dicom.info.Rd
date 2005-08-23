@@ -27,6 +27,12 @@ dicom.info(fname, endian="little", flipud=TRUE)
 \seealso{
   \code{\link{dicom.separate}}
 }
-%\examples{}
+\examples{
+x <- dicom.info(system.file("dcm/Abdo.dcm", package="DICOM")[1])
+image(x$img, col=grey(0:127/128), axes=FALSE, xlab="", ylab="")
+
+x <- dicom.info(system.file("dcm/Spine1.dcm", package="DICOM")[1])
+image(x$img, col=grey(0:127/128), axes=FALSE, xlab="", ylab="")
+}
 \author{Brandon Whitcher}
 \keyword{file}

@@ -25,7 +25,7 @@ dicom.table(hdrs, fields, numeric=rep(TRUE,length(fields)))
 }
 \references{
   Digital Imaging and Communications in Medicine (DICOM)
-  http://medical.nema.org
+  \url{http://medical.nema.org}
 }
 \seealso{
   \code{\link{extract.hdr}}
