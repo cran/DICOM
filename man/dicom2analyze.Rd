@@ -19,14 +19,13 @@ dicom2analyze(hdr, img)
   See the references.
 }
 \references{
-  Analyze 7.5
+  Analyze 7.5\cr
   \url{http://www.mayo.edu/bir/PDF/ANALYZE75.pdf}
   
-  Digital Imaging and Communications in Medicine (DICOM)
+  Digital Imaging and Communications in Medicine (DICOM)\cr
   \url{http://medical.nema.org}
 }
-\seealso{
-}
+%\seealso{}
 %\examples{}
 \author{Brandon Whitcher}
 \keyword{file}

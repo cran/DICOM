@@ -12,12 +12,10 @@ dicom.separate(path, debug=TRUE)
   \item{path}{Path name to the DICOM directory.}
   \item{debug}{Flag to provide limited progress information.}
 }
-\value{
-}
-\details{
-}
+%\value{}
+%\details{}
 \references{
-  Digital Imaging and Communications in Medicine (DICOM)
+  Digital Imaging and Communications in Medicine (DICOM)\cr
   \url{http://medical.nema.org}
 }
 \seealso{

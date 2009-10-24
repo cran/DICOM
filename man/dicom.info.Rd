@@ -13,15 +13,11 @@ dicom.info(fname, endian="little", flipud=TRUE)
   \item{endian}{Binary encoding; default is \code{"little"}.}
   \item{flipud}{Flip image vertically; default is \code{TRUE}.}
 }
-\value{
-  
-}
-\details{
-  
-}
+%\value{}
+%\details{}
 \references{
-  Digital Imaging and Communications in Medicine (DICOM)
-  \url{http://medical.nema.org}
+  Digital Imaging and Communications in Medicine (DICOM)\cr
+  \url{http://medical.nema.org}\cr
   \url{http://en.wikipedia.org/wiki/Digital_Imaging_and_Communications_in_Medicine}
 }
 \seealso{

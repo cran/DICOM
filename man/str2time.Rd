@@ -38,10 +38,12 @@ str2date(dd)
   be included.  \code{Frac} shall be held to six decimal places or less
   to ensure its format conforms to the ANSI HISPP MSDS Time common data
   type.  Examples:
+  \describe{
   \item{1.}{070907.0705 represents a time of 7 hours, 9 minutes and
     7.0705 seconds.}
   \item{2.}{1010 represents a time of 10 hours, and 10 minutes.}
   \item{3.}{021 is an invalid value.}
+  }
   Notes: For reasons of backward compatibility with versions of this
   standard prior to V3.0, it is recommended that implementations also
   support a string of characters of the format \code{hh:mm:ss.frac} for
@@ -49,16 +51,18 @@ str2date(dd)
 
  DICOM "DA" format A string of characters of the format yyyymmdd; where
  yyyy shall contain year, mm shall contain the month, and dd shall
- contain the day. This conforms to the ANSI HISPP MSDS Date common data
+ contain the day.  This conforms to the ANSI HISPP MSDS Date common data
  type. Example:
+ \describe{
  \item{1.}{19930822  would represent August 22, 1993.}
+ }
  Notes: For reasons of backward compatibility with versions of this
  standard prior to V3.0, it is recommended that implementations also
  support a string of characters of the format yyyy.mm.dd for this VR.
 }
 \references{
-  Digital Imaging and Communications in Medicine (DICOM)
-  \url{http://medical.nema.org}
+  Digital Imaging and Communications in Medicine (DICOM)\cr
+  \url{http://medical.nema.org}\cr
   \url{http://en.wikipedia.org/wiki/Digital_Imaging_and_Communications_in_Medicine}
 }
 \seealso{

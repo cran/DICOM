@@ -1,14 +1,18 @@
 Package: DICOM
-Version: 0.12
-Date: 2005-8-23
+Version: 0.13
+Date: 2009-10-24
 Title: Import medical imaging data using the DICOM Standard
-Author: Brandon Whitcher <brandon.j.whitcher@gsk.com>
-Maintainer: Brandon Whitcher <brandon.j.whitcher@gsk.com>
-Depends: R (>= 2.0.0)
+Author: Brandon Whitcher <bjw34032@users.sourceforge.net>
+Maintainer: Brandon Whitcher <bjw34032@users.sourceforge.net>
+Depends: R (>= 2.1.0)
 ZipData: no
 Description: This package provides functions to import and manipulate
-  medical imaging data via the Digital Imaging and Communications in
-  Medicine (DICOM) Standard.
-License: GPL version 2 or later
+        medical imaging data via the Digital Imaging and Communications
+        in Medicine (DICOM) Standard.
+License: GPL (>= 2)
 URL: http://medical.nema.org
-Packaged: Tue Aug 23 17:00:20 2005; bjw34032
+Repository: CRAN
+Repository/R-Forge/Project: dicom
+Repository/R-Forge/Revision: 5
+Date/Publication: 2009-10-28 15:23:55
+Packaged: 2009-10-24 20:03:11 UTC; rforge
